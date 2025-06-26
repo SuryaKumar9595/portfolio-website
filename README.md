@@ -106,8 +106,7 @@ You may use or modify it for **learning** or **portfolio** purposes.
 **Anish Kumar Sinha**  
 UI/UX Designer, Front-End Developer & Thinker.  
 📍 India  
-📧 [Your Email Here]  
-🌐 [Your LinkedIn / Portfolio Link Here]
+📧 [sinhaanishkumar@outlook.com]  
 
 ---
 
