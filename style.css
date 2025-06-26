@@ -1,0 +1,194 @@
+/* General */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: #ffffff;
+  color: #000000;
+  padding-top: 80px;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode header.fixed-top {
+  background-color: #121212;
+}
+
+.dark-mode .nav-link,
+.dark-mode .site-name {
+  color: #ffffff !important;
+}
+
+.dark-mode .logo-img {
+  filter: brightness(0) invert(1);
+}
+
+/* Navbar */
+header.fixed-top {
+  background-color: #ffffff;
+  z-index: 1000;
+  box-shadow: none;
+}
+
+.nav-link,
+.site-name {
+  color: #000000 !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.logo-img {
+  width: 30px;
+}
+
+.site-name {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.toggle-icon {
+  width: 20px;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-top: 4px;
+}
+
+/* Hero Section */
+.hero {
+  background: transparent;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.hero .intro {
+  max-width: 500px;
+  padding-left: 100px;
+}
+
+.greeting {
+  font-size: 36px;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-image: linear-gradient(#32f6f6, #A6A79F);
+  width: 197px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin: 0;
+}
+
+.highlight {
+  color: #f1c40f;
+}
+
+.buttons .btn {
+  font-weight: 500;
+  border-radius: 25px;
+  padding: 8px 20px;
+  min-width: 160px;
+}
+
+/* Profile Image */
+.profile-pic img {
+  width: 100%;
+  max-width: 280px;
+  border-bottom-left-radius: 800px;
+  border-bottom-right-radius: 300px;
+  border-top-left-radius: 170px;
+  border-top-right-radius: 300px;
+  margin-top: 20px;
+  background-color: #fff500;
+}
+
+/* About Section */
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.highlight-text {
+  color: #f1c40f;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+/* Vertical Social Icons at Bottom Left (Hero only) */
+.vertical-social-icons-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  padding: 20px;
+}
+
+.vertical-social-icons-hero img {
+  width: 28px;
+  transition: transform 0.3s;
+  filter: brightness(0); /* default black in light mode */
+}
+
+.dark-mode .vertical-social-icons-hero img {
+  filter: brightness(0) invert(1); /* white icons in dark mode */
+}
+
+
+.vertical-social-icons-hero img:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-link {
+    padding: 0.3rem 0;
+  }
+
+  .toggle-icon {
+    margin-top: 10px;
+  }
+
+  .intro,
+  .profile-pic {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .buttons .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .vertical-social-icons-hero {
+    left: 10px;
+    bottom: 10px;
+  }
+
+  .vertical-social-icons-hero img {
+    width: 24px;
+  }
+}
