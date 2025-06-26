@@ -12,7 +12,7 @@ You can host this on:
 - GitHub Pages
 - Netlify
 - Vercel  
-*(Paste your live link here once deployed)*
+*(https://portfolio-website-khaki-nine.vercel.app/)*
 
 ---
 
