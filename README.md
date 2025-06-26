@@ -87,6 +87,9 @@ Ensure these files are inside your project folder:
 | `Facebook.png`  | Facebook social icon         |
 | `Instagram.png` | Instagram social icon        |
 | `LinkedIn.png`  | LinkedIn social icon         |
+| `Telegram.png`  | Telegram social icon         |
+| `Twitter.png`   | Twitter social icon          |
+| `GitHub.png`    | GitHub social icon           |
 | `Koo.png`       | Koo app icon                 |
 | `profile.png`   | Circular profile picture     |
 | `Moon.png`      | Dark mode toggle icon        |
